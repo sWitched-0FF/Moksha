@@ -24,7 +24,7 @@ body{
 	background:url(images/design/header2.jpg) center 60px repeat-x #ffffff;
 	}
 .apartament{
-	background:url(images/design/header3.jpg) center 60px repeat-x #ffffff;
+	background:url(images/design/header3.jpg) center 69px repeat-x #ffffff;
 	}
 
 p,ul,ol{
@@ -89,6 +89,8 @@ a:hover{
 	height:auto !important;
 	padding:0;
 	text-align:center;
+	position:relative;
+	z-index:1;
 	}
 
 .hidden{
@@ -475,4 +477,38 @@ a:hover{
 			font-size:17px;
 			margin:0 0 0 26px;
 			}
-
+.backgroundLine{
+	display:block;
+	width:100%;
+	position:absolute;
+	top:0;
+	z-index:0;
+	}
+	.bigImg{
+		display:block;
+		width:100%;
+		height:306px;
+		top:62px;
+		position:absolute;
+		z-index:0;
+		}
+	.middleImg{
+		display:block;
+		width:100%;
+		height:183px;
+		top:60px;
+		position:absolute;
+		z-index:0;
+		}
+		#winterimg{
+			background:url(images/bigwinter.jpg) center 0 repeat-x;
+			}
+		#springimg{
+			background:url(images/bigspring.jpg) center 0 repeat-x;
+			}
+		#summerimg{
+			background:url(images/bigsummer.jpg) center 0 repeat-x;
+			}
+		#autumnimg{
+			background:url(images/bigautumn.jpg) center 0 repeat-x;
+			}
