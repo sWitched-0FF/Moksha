@@ -13,18 +13,24 @@ a:active, a:focus, img{outline:none;}
 /*Main template styles*/
 html, body{height:100%;text-align:center;}
 body{
-	background:url(images/design/header1.jpg) center 60px repeat-x #ffffff;
+	background:url(images/design/header1.jpg) center 42px repeat-x #ffffff;
 	font-family:Cambria,Tahoma,Georgia,sans-serif;
 	font-style:normal;
 	color:#000000;
-	font-size:16px;
-	line-height:22px;
+	font-size:14px;
+	line-height:18px;
 	}
 .hunting{
-	background:url(images/design/header2.jpg) center 60px repeat-x #ffffff;
+	background:url(images/design/header2.jpg) center 42px repeat-x #ffffff;
 	}
 .apartament{
-	background:url(images/design/header3.jpg) center 69px repeat-x #ffffff;
+	background:url(images/design/header3.jpg) center 42px repeat-x #ffffff;
+	}
+.usadba{
+	background:url(images/design/header4.jpg) center 42px repeat-x #ffffff;
+	}
+.winter{
+	background:url(images/design/header5.jpg) center 42px repeat-x #ffffff;
 	}
 
 p,ul,ol{
@@ -84,7 +90,7 @@ a:hover{
 	}
 
 .wrapper{
-	width:1020px;
+	width:716px;
 	margin:0 auto;
 	height:auto !important;
 	padding:0;
@@ -109,24 +115,24 @@ a:hover{
 	}
 
 .header{
-	height:60px;
+	height:53px;
 	overflow:visible;
 	text-align:left;
 	}
 	.headerLang{
-		width:50px;
-		height:60px;
+		width:35px;
+		height:40px;
 		float:left;
 		padding:0;
 		}
 		.headerLang a{
 			display:inline-block;
-			padding:27px 0 0 5px;
+			padding:17px 0 0 5px;
 			}
 
 .mainNav{
-	width:900px;
-	height:60px;
+	width:620px;
+	height:40px;
 	margin:0;
 	float:left;
 	}
@@ -144,9 +150,9 @@ a:hover{
 			.mainNavItem a{
 				display:block;
 				float:left;
-				padding:20px 10px 5px 10px;
-				font-size:20px;
-				line-height:30px;
+				padding:15px 7px 5px 7px;
+				font-size:15px;
+				line-height:20px;
 				text-decoration:none;
 				text-transform:uppercase;
 				color:#878787;
@@ -166,80 +172,154 @@ a:hover{
 					border-radius:0 0 5px 5px;
 					}
 .socialLinks{
-	width:60px;
+	width:50px;
 	float:left;
 	}
 	.socialLinks ul{
 		display:block;
 		margin:0;
-		padding:27px 0 0 0;
+		padding:17px 0 0 0;
 		list-style:none;
 		}
 		.socialLinks li{
 			display:inline-block;
-			margin:0 5px 0 0;
+			margin:0 3px 0 0;
 			}
 .mainCalendar{
-	margin:0 0 0 -128px;
-	padding: 30px 0 227px 118px;
-	width:550px;
+	margin:0 0 0 -90px;
+	padding: 37px 0 158px 81px;
+	width:385px;
 	float:left;
 	background:url(images/design/guns.jpg) left bottom no-repeat;
 	}
 	.bigCalendar{
 		display:block;
-		width:540px;
-		height:480px;
+		width:373px;
+		height:332px;
 		position:relative;
 		background:url(images/design/bigcalendar.png) center center no-repeat;
 		}
 		.bigCalendar a{
 			display:inline-block;
-			width:268px;
-			height:240px;
+			width:184px;
+			height:160px;
 			font-size:0;
 			}
 .huntingCalendar{
-	margin:0 0 0 -55px;
-	padding: 30px 0 114px 50px;
-	width:360px;
+	margin:0 0 0 -38px;
+	padding: 2px 0 70px 30px;
+	width:242px;
 	float:left;
 	background:url(images/design/hunting.jpg) left bottom no-repeat;
 	}
 .apartamentCalendar{
-	margin:0 0 0 -55px;
-	padding: 30px 0 114px 50px;
-	width:360px;
+	margin:0 0 0 -38px;
+	padding: 2px 0 70px 30px;
+	width:242px;
 	float:left;
 	background:url(images/design/apartament.jpg) left bottom no-repeat;
 	}
+.winterCalendar{
+	margin:0 0 0 -118px;
+	padding: 2px 0 0 110px;
+	width:242px;
+	float:left;
+	background:url(images/design/winter.jpg) left 143px no-repeat;
+	}
+	.winterCalendar .normalCalendar{
+		padding:0 0 70px 0;
+	}
+.usadbaCalendar{
+	margin:0 0 0 -58px;
+	padding: 2px 0 0 50px;
+	width:242px;
+	float:left;
+	background:url(images/design/usadba.jpg) left 143px no-repeat;
+	}
+	.usadbaCalendar .normalCalendar{
+		padding:0 0 70px 0;
+	}
 	.normalCalendar{
 		display:block;
-		width:345px;
-		height:306px;
+		width:242px;
+		height:215px;
 		position:relative;
-		background:url(images/design/normalcalendar.png) center center no-repeat;
+		background:url(images/design/normalcalendar.png) center 0 no-repeat;
 		}
 		.normalCalendar a{
 			display:inline-block;
-			width:168px;
-			height:150px;
+			width:106px;
+			height:120px;
 			font-size:0;
 			}
+.sideSections{
+	clear:both;
+	padding:0 0 0 10px;
+	}
+	.sideSectionItems{
+		display:block;
+		margin:20px 0;
+		padding:0;
+		list-style:none;
+		}
+		.sideSectionItem{
+			display:inline-block;
+			width:220px;
+			margin:0 20px 10px 0;
+			padding: 11px 0;
+			border-top:2px solid #c7c7c7;
+			}
+			.sideSectionItem img{
+				float:left;
+				margin: 0 9px 9px 0;
+				}
+			.sideSectionItem h3{
+				text-transform:uppercase;
+				font-size:13px;
+				line-height:16px;
+				font-weight:bold;
+				margin:0 0 7px 0;
+				}
+				.sideSectionItem.winterBlock h3 a{
+					color:#b8b8b8;
+					}
+				.sideSectionItem.springBlock h3 a{
+					color:#889933;
+					}
+				.sideSectionItem.summerBlock h3 a{
+					color:#2a7f20;
+					}
+				.sideSectionItem.autumnBlock h3 a{
+					color:#e0ad0f;
+					}
+			.sideSectionItem a{
+				color:#000000;
+				text-decoration:none;
+				}
+			.sideSectionItem a:hover{
+				color:#beaf81;
+				}
+			.sideSectionItem p{
+				margin:4px 0;
+				font-size:11px;
+				line-height:13px;
+				}
 .leftContent{
-	width:470px;
+	width:330px;
 	float:left;
-	padding:390px 0 20px 10px;
+	padding:245px 0 20px 10px;
 	text-align:justify;
 	color:#000000;
+	font-size:14px;
+	line-height:18px;
 	}
 	.leftContent p{
 		text-align:justify;
 		}
 .leftContentPages{
-	width:655px;
+	width:469px;
 	float:left;
-	padding:185px 0 20px 10px;
+	padding:110px 0 20px 10px;
 	text-align:justify;
 	color:#000000;
 	}
@@ -249,14 +329,14 @@ a:hover{
 		}
 	.leftContentPages h1{
 		margin:0;
-		font-size:50px;
-		line-height:54px;
+		font-size:40px;
+		line-height:44px;
 		text-transform:uppercase;
 		color:#beaf81;
 		}
 	.bredCrumbs{
 		display:block;
-		height:42px;
+		height:35px;
 		}
 		.bredCrumbs ul{
 			margin:0;
@@ -266,8 +346,8 @@ a:hover{
 		.bredCrumbs li{
 			display:inline-block;
 			text-transform:uppercase;
-			font-size:18px;
-			line-height:40px;
+			font-size:15px;
+			line-height:35px;
 			color:#0c0b08;
 			}
 		.bredCrumbs a{
@@ -285,10 +365,10 @@ a:hover{
 	}
 	.subMenuItem{
 		display:inline-block;
-		margin:0 7px 0 0;
+		margin:0 5px 0 0;
 		text-transform:uppercase;
-		font-size:22px;
-		line-height:40px;
+		font-size:17px;
+		line-height:30px;
 		}
 		.subMenuItem a {
 			color:#878787;
@@ -306,7 +386,7 @@ a:hover{
 	}
 .mainSections{
 	clear:both;
-	width:1050px;
+	width:740px;
 	}
 	.mainSectionItems{
 		display:block;
@@ -316,21 +396,21 @@ a:hover{
 		}
 		.mainSectionItem{
 			display:inline-block;
-			width:315px;
-			margin:0 30px 10px 0;
-			padding: 15px 0;
-			border-top:3px solid #c7c7c7;
+			width:223px;
+			margin:0 20px 10px 0;
+			padding: 11px 0;
+			border-top:2px solid #c7c7c7;
 			}
 			.mainSectionItem img{
 				float:left;
-				margin: 0 12px 12px 0;
+				margin: 0 9px 9px 0;
 				}
 			.mainSectionItem h3{
 				text-transform:uppercase;
-				font-size:18px;
-				line-height:20px;
+				font-size:13px;
+				line-height:16px;
 				font-weight:bold;
-				margin:0 0 12px 0;
+				margin:0 0 7px 0;
 				}
 			.mainSectionItem a{
 				color:#000000;
@@ -340,9 +420,9 @@ a:hover{
 				color:#beaf81;
 				}
 			.mainSectionItem p{
-				margin:6px 0;
-				font-size:14px;
-				line-height:16px;
+				margin:4px 0;
+				font-size:11px;
+				line-height:13px;
 				}
 .footerNav{
 	clear:both;
@@ -364,7 +444,7 @@ a:hover{
 				text-decoration:none;
 				text-transform:uppercase;
 				color:#939393;
-				font-size:22px;
+				font-size:17px;
 				}
 .price{
 	width:100%;
@@ -372,7 +452,7 @@ a:hover{
 	border-collapse: separate;
 	}
 	.price th{
-		padding:3px 20px;
+		padding:2px 14px;
 		text-align:center;
 		color:#878787;
 		text-transform:uppercase;
@@ -385,23 +465,23 @@ a:hover{
 			text-align:left;
 			}
 		.price .name{
-			padding:10px 20px;
-			font-size:22px;
-			line-height:24px;
+			padding:7px 14px;
+			font-size:17px;
+			line-height:20px;
 			text-transform:uppercase;
 			}
 		.price .type{
-			padding:10px 20px 10px 30px;
+			padding:7px 14px 7px 20px;
 			}
 		.price .service{
-			padding:10px 20px 10px 30px;
+			padding:7px 14px 7px 20px;
 			}
 		.price .cost{
-			padding:10px 20px;
-			font-size:18px;
+			padding:7px 14px;
+			font-size:14px;
 			}
 		.price .photo{
-			width:74px;
+			width:52px;
 			}
 		.price .photo img{
 			display:block;
@@ -409,106 +489,115 @@ a:hover{
 			}
 		.price td.room{
 			background:transparent;
-			padding:5px 10px 5px 0;
+			padding:3px 7px 3px 0;
 			}
 		.price .num{
 			color:#beaf81;
-			font-size:38px;
-			line-height:42px;
+			font-size:26px;
+			line-height:28px;
 			}
 		.price .roomCost{
 			display:inline-block;
-			line-height:18px;
-			font-size:16px;
+			line-height:14px;
+			font-size:12px;
 			}
 		.price .photoRoom{
-			width:137px;
+			width:97px;
 			}
 			.price .photoRoom img{
 				float:left;
 				}
 		.price .beds{
-			width:90px;
+			width:70px;
 			text-align:center;
-			font-size:22px;
-			padding:5px;
-			line-height:26px;
+			font-size:17px;
+			padding:3px;
+			line-height:20px;
 			vertical-align:middle;
 			}
 			.price .beds small{
-				font-size:12px;
-				line-height:14px;
+				font-size:10px;
+				line-height:12px;
 				display:inline-block;
 				}
 		.price .includes{
-			font-size:30px;
-			line-height:36px;
+			font-size:21px;
+			line-height:26px;
 			text-align:center;
 			vertical-align:middle;
 			}
 			.price .includes .subinfo{
-				font-size:12px;
-				line-height:14px;
+				font-size:10px;
+				line-height:12px;
 				display:inline-block;
 				}
 		.price .booking{
-			padding:5px 20px;
+			padding:3px 14px;
 			}
 .miniBookingForm{
-	width:465px;
+	width:325px;
 	}
 	.miniBookingForm .leftPart,
 	.miniBookingForm .rightPart{
-		width:230px;
+		width:160px;
 		display:inline-block;
 		}
 		.miniBookingForm label{
-			padding:0 0 0 26px;
-			font-size:22px;
+			padding:0 0 0 16px;
+			font-size:17px;
 			}
+		.miniBookingForm select{
+			font-size:12px;
+			height:18px;
+		}
 		.miniBookingForm .datepick{
-			padding:4px 0 4px 26px;
+			padding:1px 0 1px 16px;
 			background:url(images/design/datepicker.png) left center no-repeat;
 			}
 		.miniBookingForm .rightPart a{
 			color:#880000;
 			}
 		.miniBookingForm a{
-			font-size:17px;
-			margin:0 0 0 26px;
+			font-size:12px;
+			margin:0 0 0 16px;
 			}
 .backgroundLine{
 	display:block;
 	width:100%;
 	position:absolute;
-	top:0;
+	top:42px;
+	overflow:hidden;
 	z-index:0;
 	}
 	.bigImg{
 		display:block;
 		width:100%;
-		height:306px;
-		top:62px;
-		position:absolute;
+		height:215px;
 		z-index:0;
 		}
 	.middleImg{
 		display:block;
 		width:100%;
-		height:183px;
-		top:60px;
-		position:absolute;
+		height:121px;
 		z-index:0;
 		}
-		#winterimg{
+		#winterimg div{
 			background:url(images/bigwinter.jpg) center 0 repeat-x;
 			}
-		#springimg{
+		#springimg div{
 			background:url(images/bigspring.jpg) center 0 repeat-x;
 			}
-		#summerimg{
+		#summerimg div{
 			background:url(images/bigsummer.jpg) center 0 repeat-x;
 			}
-		#autumnimg{
+		#autumnimg div{
 			background:url(images/bigautumn.jpg) center 0 repeat-x;
 			}
+#mycarousel{
+	width:1000px;
+	margin:0;
+	list-style:none;
+}
+#mycarousel li{
+	width:1000px;
+}

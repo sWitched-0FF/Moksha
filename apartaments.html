@@ -6,6 +6,7 @@
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body class="apartament">
@@ -35,8 +36,8 @@
 			<div class="normalCalendar" id="seasoncalendar">
 				<a href="/" id="spring">Spring</a>
 				<a href="/" id="summer">Summer</a>
-				<a href="/" id="autumn">Autumn</a>
 				<a href="/" id="winter">Winter</a>
+				<a href="/" id="autumn">Autumn</a>
 			</div>
 		</div>
 		<div class="leftContentPages">
@@ -86,7 +87,7 @@
 										<option value="3">3</option>
 										<option value="4">4</option>
 									</select>
-									<select name="month" style="width:110px">
+									<select name="month" style="width:70px">
 										<option>Месяц</option>
 										<option value="1">Январь</option>
 										<option value="2">Февраль</option>
@@ -106,7 +107,7 @@
 										<option value="3">3</option>
 										<option value="4">4</option>
 									</select>
-									<select name="month" style="width:110px">
+									<select name="month" style="width:70px">
 										<option>Месяц</option>
 										<option value="1">Январь</option>
 										<option value="2">Февраль</option>
@@ -136,7 +137,7 @@
 										<option value="3">3</option>
 										<option value="4">4</option>
 									</select>
-									<select name="month" style="width:110px">
+									<select name="month" style="width:70px">
 										<option>Месяц</option>
 										<option value="1">Январь</option>
 										<option value="2">Февраль</option>
@@ -156,7 +157,7 @@
 										<option value="3">3</option>
 										<option value="4">4</option>
 									</select>
-									<select name="month" style="width:110px">
+									<select name="month" style="width:70px">
 										<option>Месяц</option>
 										<option value="1">Январь</option>
 										<option value="2">Февраль</option>
@@ -186,7 +187,7 @@
 										<option value="3">3</option>
 										<option value="4">4</option>
 									</select>
-									<select name="month" style="width:110px">
+									<select name="month" style="width:70px">
 										<option>Месяц</option>
 										<option value="1">Январь</option>
 										<option value="2">Февраль</option>
@@ -206,7 +207,7 @@
 										<option value="3">3</option>
 										<option value="4">4</option>
 									</select>
-									<select name="month" style="width:110px">
+									<select name="month" style="width:70px">
 										<option>Месяц</option>
 										<option value="1">Январь</option>
 										<option value="2">Февраль</option>
@@ -236,7 +237,7 @@
 										<option value="3">3</option>
 										<option value="4">4</option>
 									</select>
-									<select name="month" style="width:110px">
+									<select name="month" style="width:70px">
 										<option>Месяц</option>
 										<option value="1">Январь</option>
 										<option value="2">Февраль</option>
@@ -256,7 +257,7 @@
 										<option value="3">3</option>
 										<option value="4">4</option>
 									</select>
-									<select name="month" style="width:110px">
+									<select name="month" style="width:70px">
 										<option>Месяц</option>
 										<option value="1">Январь</option>
 										<option value="2">Февраль</option>
@@ -282,10 +283,37 @@
 		</div>
 	</div>
 	<div class="backgroundLine">
-		<div class="middleImg" id="winterimg"></div>
-		<div class="middleImg" id="springimg"></div>
-		<div class="middleImg" id="summerimg"></div>
-		<div class="middleImg" id="autumnimg"></div>
+		<ul id="mycarousel">
+			<li id="winterimg"><div class="middleImg" style="background-image:url(images/middletop0.jpg)"></div></li>
+			<li id="springimg"><div class="middleImg" style="background-image:url(images/middletop1.jpg)"></div></li>
+			<li id="summerimg"><div class="middleImg" style="background-image:url(images/middletop2.jpg)"></div></li>
+			<li id="autumnimg"><div class="middleImg" style="background-image:url(images/middletop3.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop4.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop5.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop6.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop7.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop8.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop9.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop10.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop11.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop12.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop13.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop14.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop15.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop16.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop17.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop18.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop19.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop20.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop21.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop22.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop23.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop24.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop25.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop26.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop27.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop28.jpg)"></div></li>
+		</ul>
 	</div>
 </body>
 </html>
