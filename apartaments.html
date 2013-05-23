@@ -5,8 +5,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body class="apartament">
@@ -115,7 +117,7 @@
 										<option value="4">Апрель</option>
 									</select>
 								</div>
-								<a href="/">Оформить бронь</a>
+								<a href="#popupForm">Оформить бронь</a>
 							</div>
 						</form>
 					</td>
@@ -165,7 +167,7 @@
 										<option value="4">Апрель</option>
 									</select>
 								</div>
-								<a href="/">Оформить бронь</a>
+								<a href="#popupForm">Оформить бронь</a>
 							</div>
 						</form>
 					</td>
@@ -215,7 +217,7 @@
 										<option value="4">Апрель</option>
 									</select>
 								</div>
-								<a href="/">Оформить бронь</a>
+								<a href="#popupForm">Оформить бронь</a>
 							</div>
 						</form>
 					</td>
@@ -265,7 +267,7 @@
 										<option value="4">Апрель</option>
 									</select>
 								</div>
-								<a href="/">Оформить бронь</a>
+								<a href="#popupForm">Оформить бронь</a>
 							</div>
 						</form>
 					</td>
@@ -284,10 +286,10 @@
 	</div>
 	<div class="backgroundLine">
 		<ul id="mycarousel">
-			<li id="winterimg"><div class="middleImg" style="background-image:url(images/middletop0.jpg)"></div></li>
+			<li><div class="middleImg" style="background-image:url(images/middletop0.jpg)"></div></li>
 			<li id="springimg"><div class="middleImg" style="background-image:url(images/middletop1.jpg)"></div></li>
-			<li id="summerimg"><div class="middleImg" style="background-image:url(images/middletop2.jpg)"></div></li>
-			<li id="autumnimg"><div class="middleImg" style="background-image:url(images/middletop3.jpg)"></div></li>
+			<li id="autumnimg"><div class="middleImg" style="background-image:url(images/middletop2.jpg)"></div></li>
+			<li id="summerimg"><div class="middleImg" style="background-image:url(images/middletop3.jpg)"></div></li>
 			<li><div class="middleImg" style="background-image:url(images/middletop4.jpg)"></div></li>
 			<li><div class="middleImg" style="background-image:url(images/middletop5.jpg)"></div></li>
 			<li><div class="middleImg" style="background-image:url(images/middletop6.jpg)"></div></li>
@@ -312,8 +314,22 @@
 			<li><div class="middleImg" style="background-image:url(images/middletop25.jpg)"></div></li>
 			<li><div class="middleImg" style="background-image:url(images/middletop26.jpg)"></div></li>
 			<li><div class="middleImg" style="background-image:url(images/middletop27.jpg)"></div></li>
-			<li><div class="middleImg" style="background-image:url(images/middletop28.jpg)"></div></li>
+			<li id="winterimg"><div class="middleImg" style="background-image:url(images/middletop28.jpg)"></div></li>
 		</ul>
+	</div>
+	<div class="hidden">
+		<div id="popupForm">
+			<form id="4" class="popupBookingForm" action="/" method="post">
+				<label>Имя и фамилия</label>
+				<input type="text" name="fio" tabindex=1 value="" placeholder="введите имя и фамилию"/>
+				<label>Контактный телефон</label>
+				<input type="text" name="phone" tabindex=2 value="" placeholder="номер для связи"/>
+				<label>E-mail</label>
+				<input type="text" name="email" tabindex=3 value="" placeholder="email@mail.ru"/>
+				<button>Оформить бронь</button>
+				
+			</form>
+		</div>
 	</div>
 </body>
 </html>

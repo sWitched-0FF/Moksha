@@ -1,26 +1,18 @@
 $(document).ready(function(){
-	//$('#seasoncalendar a').hover(function(){
-	//	$('#'+this.id+'img').fadeIn();
-	//	$('.backgroundLine div:not(#'+this.id+'img)').fadeOut('slow');
-	//});
-
-	var docWidth=$('body').width();
-	$('#mycarousel').width(docWidth);
-	$('#mycarousel li').width(docWidth);
-
-	$('#mycarousel').jcarousel({
-		scroll:1,
-		auto:5,
-		wrap: 'circular',
-		initCallback: mycarousel_initCallback,
-		buttonNextHTML: null,
-		buttonPrevHTML: null
+	$('#mycarousel').cycle({
+		fx: 'fade', //чтоб было справа-налево смена, поменять на scrollRight
+		speed:  1000,
+		timeout: 5000,
+		delay: 0
 	});
-});
-
-function mycarousel_initCallback(carousel) {
+	
+	/* Если нужен переход на слайд при ховере на календарь раскоментить
 	$('#seasoncalendar a').bind('hover', function() {
 		var index = $(this).index();
-		carousel.scroll($.jcarousel.intval(index));
+		var indexSlide = $('#'+$(this).attr('id')+'img').index();
+		$('#mycarousel').cycle(indexSlide);
 	});
-  };
+	*/
+
+	$('a[href=#popupForm]').fancybox({'titleShow':false});
+});
