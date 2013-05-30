@@ -6,9 +6,12 @@
 	<meta http-equiv="Content-Style-Type" content="text/css" />
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link href="css/jquery.fancybox-1.3.4.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css" media="screen" />
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.cycle.all.latest.js"></script>
 	<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.10.2.custom.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.datepicker-ru.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body class="apartament">
@@ -82,42 +85,16 @@
 							<div class="leftPart">
 								<label>Дата заезда</label>
 								<div class="datepick">
-									<select name="day">
-										<option>День</option>
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-									<select name="month" style="width:70px">
-										<option>Месяц</option>
-										<option value="1">Январь</option>
-										<option value="2">Февраль</option>
-										<option value="3">Март</option>
-										<option value="4">Апрель</option>
-									</select>
+									<input type="text" name="startdate" value="" class="datePick" placeholder="dd.mm.yyyy"/>
 								</div>
 								<a href="/">Проверить наличие мест</a>
 							</div>
 							<div class="rightPart">
 								<label>Дата отъезда</label>
 								<div class="datepick">
-									<select name="day">
-										<option>День</option>
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-									<select name="month" style="width:70px">
-										<option>Месяц</option>
-										<option value="1">Январь</option>
-										<option value="2">Февраль</option>
-										<option value="3">Март</option>
-										<option value="4">Апрель</option>
-									</select>
+									<input type="text" name="enddate" value="" class="datePick" placeholder="dd.mm.yyyy"/>
 								</div>
-								<a href="#popupForm">Оформить бронь</a>
+								<a href="#popupForm" data-room="room1">Оформить бронь</a>
 							</div>
 						</form>
 					</td>
@@ -132,42 +109,16 @@
 							<div class="leftPart">
 								<label>Дата заезда</label>
 								<div class="datepick">
-									<select name="day">
-										<option>День</option>
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-									<select name="month" style="width:70px">
-										<option>Месяц</option>
-										<option value="1">Январь</option>
-										<option value="2">Февраль</option>
-										<option value="3">Март</option>
-										<option value="4">Апрель</option>
-									</select>
+									<input type="text" name="startdate" value="" class="datePick" placeholder="dd.mm.yyyy"/>
 								</div>
 								<a href="/">Проверить наличие мест</a>
 							</div>
 							<div class="rightPart">
 								<label>Дата отъезда</label>
 								<div class="datepick">
-									<select name="day">
-										<option>День</option>
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-									<select name="month" style="width:70px">
-										<option>Месяц</option>
-										<option value="1">Январь</option>
-										<option value="2">Февраль</option>
-										<option value="3">Март</option>
-										<option value="4">Апрель</option>
-									</select>
+									<input type="text" name="enddate" value="" class="datePick" placeholder="dd.mm.yyyy"/>
 								</div>
-								<a href="#popupForm">Оформить бронь</a>
+								<a href="#popupForm" data-room="room2">Оформить бронь</a>
 							</div>
 						</form>
 					</td>
@@ -182,42 +133,16 @@
 							<div class="leftPart">
 								<label>Дата заезда</label>
 								<div class="datepick">
-									<select name="day">
-										<option>День</option>
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-									<select name="month" style="width:70px">
-										<option>Месяц</option>
-										<option value="1">Январь</option>
-										<option value="2">Февраль</option>
-										<option value="3">Март</option>
-										<option value="4">Апрель</option>
-									</select>
+									<input type="text" name="startdate" value="" class="datePick" placeholder="dd.mm.yyyy"/>
 								</div>
 								<a href="/">Проверить наличие мест</a>
 							</div>
 							<div class="rightPart">
 								<label>Дата отъезда</label>
 								<div class="datepick">
-									<select name="day">
-										<option>День</option>
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-									<select name="month" style="width:70px">
-										<option>Месяц</option>
-										<option value="1">Январь</option>
-										<option value="2">Февраль</option>
-										<option value="3">Март</option>
-										<option value="4">Апрель</option>
-									</select>
+									<input type="text" name="enddate" value="" class="datePick" placeholder="dd.mm.yyyy"/>
 								</div>
-								<a href="#popupForm">Оформить бронь</a>
+								<a href="#popupForm" data-room="room3">Оформить бронь</a>
 							</div>
 						</form>
 					</td>
@@ -232,42 +157,16 @@
 							<div class="leftPart">
 								<label>Дата заезда</label>
 								<div class="datepick">
-									<select name="day">
-										<option>День</option>
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-									<select name="month" style="width:70px">
-										<option>Месяц</option>
-										<option value="1">Январь</option>
-										<option value="2">Февраль</option>
-										<option value="3">Март</option>
-										<option value="4">Апрель</option>
-									</select>
+									<input type="text" name="startdate" value="" class="datePick" placeholder="dd.mm.yyyy"/>
 								</div>
 								<a href="/">Проверить наличие мест</a>
 							</div>
 							<div class="rightPart">
 								<label>Дата отъезда</label>
 								<div class="datepick">
-									<select name="day">
-										<option>День</option>
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-									</select>
-									<select name="month" style="width:70px">
-										<option>Месяц</option>
-										<option value="1">Январь</option>
-										<option value="2">Февраль</option>
-										<option value="3">Март</option>
-										<option value="4">Апрель</option>
-									</select>
+									<input type="text" name="enddate" value="" class="datePick" placeholder="dd.mm.yyyy"/>
 								</div>
-								<a href="#popupForm">Оформить бронь</a>
+								<a href="#popupForm" data-room="room4">Оформить бронь</a>
 							</div>
 						</form>
 					</td>
@@ -320,6 +219,8 @@
 	<div class="hidden">
 		<div id="popupForm">
 			<form id="4" class="popupBookingForm" action="/" method="post">
+				<input type="hidden" name="room" value="undefined" id="roomhidinput" />
+                <input type="hidden" name="date" value="undefined" id="datehidinput" />
 				<label>Имя и фамилия</label>
 				<input type="text" name="fio" tabindex=1 value="" placeholder="введите имя и фамилию"/>
 				<label>Контактный телефон</label>
@@ -327,7 +228,6 @@
 				<label>E-mail</label>
 				<input type="text" name="email" tabindex=3 value="" placeholder="email@mail.ru"/>
 				<button>Оформить бронь</button>
-				
 			</form>
 		</div>
 	</div>
