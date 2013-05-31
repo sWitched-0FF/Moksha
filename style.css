@@ -554,6 +554,9 @@ a:hover{
 			padding:1px 0 1px 16px;
 			background:url(images/design/datepicker.png) left center no-repeat;
 			}
+		.miniBookingForm .datePick{
+			width:134px;
+			}
 		.miniBookingForm .rightPart a{
 			color:#880000;
 			}

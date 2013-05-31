@@ -17,9 +17,12 @@ $(document).ready(function(){
 	$('a[href=#popupForm]').click(function(e){
 		e.stopPropagation();
 		$('#roomhidinput').val($(this).data('room'));
-		 $('#datehidinput').val($(this).closest('.miniBookingForm').find('input[name=startdate]').val());
+		$('#datehidinput').val($(this).closest('.miniBookingForm').find('input[name=startdate]').val());
 		$.fancybox({'titleShow':false,'content':$('#popupForm').html()});
 	});
 	
 	$('.datePick').datepicker();
+	$('.datepick').click(function(){
+		$(this).find('.datePick').datepicker('show');
+	});
 });
