@@ -194,17 +194,41 @@ a:hover{
 	}
 	.bigCalendar{
 		display:block;
-		width:373px;
-		height:332px;
+		width:374px;
+		height:334px;
 		position:relative;
 		background:url(images/design/bigcalendar.png) center center no-repeat;
 		}
 		.bigCalendar a{
-			display:inline-block;
-			width:184px;
-			height:160px;
+			display:block;
+			width:185px;
+			height:167px;
+			float:left;
 			font-size:0;
+			opacity:0;
+			transition: opacity 0.5s linear;
+			filter: alpha(opacity=0);
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 			}
+			.bigCalendar a:hover{
+				opacity:1;
+				filter: alpha(opacity=100);
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+				}
+			.bigCalendar a#winter{
+				background:url(images/design/bigcalendarhover.png) 0px -166px no-repeat;
+				}
+			.bigCalendar a#spring{
+				background:url(images/design/bigcalendarhover.png) 0 1px no-repeat;
+				}
+			.bigCalendar a#summer{
+				background:url(images/design/bigcalendarhover.png) -185px 1px no-repeat;
+				}
+			.bigCalendar a#autumn{
+				background:url(images/design/bigcalendarhover.png) -185px -166px no-repeat;
+				}
 .huntingCalendar{
 	margin:0 0 0 -38px;
 	padding: 2px 0 70px 30px;
@@ -247,11 +271,35 @@ a:hover{
 		background:url(images/design/normalcalendar.png) center 0 no-repeat;
 		}
 		.normalCalendar a{
-			display:inline-block;
-			width:106px;
-			height:120px;
+			display:block;
+			width:120px;
+			height:108px;
+			float:left;
 			font-size:0;
+			opacity:0;
+			transition: opacity 0.5s linear;
+			filter: alpha(opacity=0);
+			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+			filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 			}
+			.normalCalendar a:hover{
+				opacity:1;
+				filter: alpha(opacity=100);
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+				}
+			.normalCalendar a#winter{
+				background:url(images/design/normalcalendarhover.png) -1px -108px no-repeat;
+				}
+			.normalCalendar a#spring{
+				background:url(images/design/normalcalendarhover.png) -1px 0 no-repeat;
+				}
+			.normalCalendar a#summer{
+				background:url(images/design/normalcalendarhover.png) -121px 0px no-repeat;
+				}
+			.normalCalendar a#autumn{
+				background:url(images/design/normalcalendarhover.png) -121px -108px no-repeat;
+				}
 .sideSections{
 	clear:both;
 	padding:0 0 0 10px;
