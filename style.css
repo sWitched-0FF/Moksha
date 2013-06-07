@@ -207,26 +207,20 @@ a:hover{
 			font-size:0;
 			opacity:0;
 			transition: opacity 0.5s linear;
-			filter: alpha(opacity=0);
-			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-			filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 			}
 			.bigCalendar a:hover{
 				opacity:1;
-				filter: alpha(opacity=100);
-				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 				}
-			.bigCalendar a#winter{
+			.bigCalendar a#winter:hover{
 				background:url(images/design/bigcalendarhover.png) 0px -166px no-repeat;
 				}
-			.bigCalendar a#spring{
+			.bigCalendar a#spring:hover{
 				background:url(images/design/bigcalendarhover.png) 0 1px no-repeat;
 				}
-			.bigCalendar a#summer{
+			.bigCalendar a#summer:hover{
 				background:url(images/design/bigcalendarhover.png) -185px 1px no-repeat;
 				}
-			.bigCalendar a#autumn{
+			.bigCalendar a#autumn:hover{
 				background:url(images/design/bigcalendarhover.png) -185px -166px no-repeat;
 				}
 .huntingCalendar{
@@ -278,26 +272,20 @@ a:hover{
 			font-size:0;
 			opacity:0;
 			transition: opacity 0.5s linear;
-			filter: alpha(opacity=0);
-			-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-			filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
 			}
 			.normalCalendar a:hover{
 				opacity:1;
-				filter: alpha(opacity=100);
-				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-				filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
 				}
-			.normalCalendar a#winter{
+			.normalCalendar a#winter:hover{
 				background:url(images/design/normalcalendarhover.png) -1px -108px no-repeat;
 				}
-			.normalCalendar a#spring{
+			.normalCalendar a#spring:hover{
 				background:url(images/design/normalcalendarhover.png) -1px 0 no-repeat;
 				}
-			.normalCalendar a#summer{
+			.normalCalendar a#summer:hover{
 				background:url(images/design/normalcalendarhover.png) -121px 0px no-repeat;
 				}
-			.normalCalendar a#autumn{
+			.normalCalendar a#autumn:hover{
 				background:url(images/design/normalcalendarhover.png) -121px -108px no-repeat;
 				}
 .sideSections{
