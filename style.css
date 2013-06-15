@@ -223,6 +223,16 @@ a:hover{
 			.bigCalendar a#autumn:hover{
 				background:url(images/design/bigcalendarhover.png) -185px -166px no-repeat;
 				}
+			.bigCalendar #tomain{
+				display:block;
+				width:215px;
+				height:189px;
+				position:absolute;
+				z-index:2;
+				top:72px;
+				left:82px;
+				border-radius: 102px 146px 86px 149px;
+				}
 .huntingCalendar{
 	margin:0 0 0 -38px;
 	padding: 2px 0 70px 30px;
@@ -287,6 +297,16 @@ a:hover{
 				}
 			.normalCalendar a#autumn:hover{
 				background:url(images/design/normalcalendarhover.png) -121px -108px no-repeat;
+				}
+			.normalCalendar #tomain{
+				display:block;
+				width:147px;
+				height:125px;
+				position:absolute;
+				z-index:2;
+				top:46px;
+				left:47px;
+				border-radius: 149px 188px 129px 142px;
 				}
 .sideSections{
 	clear:both;
@@ -629,6 +649,7 @@ a:hover{
 		height:215px;
 		z-index:0;
 		position:absolute;
+		text-align:center;
 		}
 	.middleImg{
 		display:block;
@@ -636,6 +657,7 @@ a:hover{
 		height:121px;
 		z-index:0;
 		position:absolute;
+		text-align:center;
 		}
 		#winterimg div{
 			background:url(images/bigwinter.jpg) center 0 repeat-x;
